@@ -2,10 +2,9 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [color, setColor] = useState("olive");
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="w-full h-screen" style={{ backgroundColor: color }}></div>
   );
 }
 
