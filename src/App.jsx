@@ -35,7 +35,7 @@ function App() {
             onClick={() => {
               setColor("yellow");
             }}
-            className="cursor-pointer bg-yellow-700 px-4 py-2 w-[90px] rounded-4xl text-white"
+            className="cursor-pointer bg-yellow-300 px-4 py-2 w-[90px] rounded-4xl text-white"
           >
             Yellow
           </button>
